@@ -59,7 +59,7 @@ click.addEventListener("click", function() {
         click.innerHTML = `🚩 ${oyuncu1} Kazandı.`
     }
     else if (randomNumber1 < randomNumber2) { 
-        click.innerHTML = `${oyuncu2} 🚩 Kazandı.`
+        click.innerHTML = `${oyuncu2} Kazandı. 🚩`
     }
     else if (randomNumber1 = randomNumber2) {
         click.innerHTML = "Berabere! Tıkla ve tekrar dene!"
